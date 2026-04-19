@@ -128,3 +128,15 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# ----- KLB project — unused template demo assets -----
+# (Only referenced by Header1–Header24 / Footer1–Footer13 which we never render.)
+public/assets/images/alldemo/
+
+# IDE / OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo

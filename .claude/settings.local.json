@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /c/dev)",
+      "Bash(mv \"/c/Users/Muttafeen/Downloads/consult-business-consulting-nextjs-template-2026-01-14-02-59-53-utc/Consult-nextjs-v2.0.0-unzip-first/1.Consult-Nextjs\" /c/dev/consult)",
+      "Read(//c/dev/**)",
+      "Bash(cd /c)",
+      "Bash(tasklist //FI \"IMAGENAME eq node.exe\")",
+      "Bash(tasklist //FI \"IMAGENAME eq next-swc*\")",
+      "Bash(wmic process *)",
+      "Bash(cmd //c \"move \\\\\"C:\\\\\\\\Users\\\\\\\\Muttafeen\\\\\\\\Downloads\\\\\\\\consult-business-consulting-nextjs-template-2026-01-14-02-59-53-utc\\\\\\\\Consult-nextjs-v2.0.0-unzip-first\\\\\\\\1.Consult-Nextjs\\\\\" C:\\\\\\\\dev\\\\\\\\consult\")",
+      "Bash(powershell -Command \"Move-Item -LiteralPath 'C:\\\\Users\\\\Muttafeen\\\\Downloads\\\\consult-business-consulting-nextjs-template-2026-01-14-02-59-53-utc\\\\Consult-nextjs-v2.0.0-unzip-first\\\\1.Consult-Nextjs' -Destination 'C:\\\\dev\\\\consult' -Force\")",
+      "Bash(robocopy \"C:\\\\Users\\\\Muttafeen\\\\Downloads\\\\consult-business-consulting-nextjs-template-2026-01-14-02-59-53-utc\\\\Consult-nextjs-v2.0.0-unzip-first\\\\1.Consult-Nextjs\" \"C:\\\\dev\\\\consult\" /E /MOVE /XD .next node_modules /NFL /NDL /NJH /NJS /R:1 /W:1)",
+      "Bash(echo \"EXITCODE=$?\")",
+      "Bash(MSYS_NO_PATHCONV=1 MSYS2_ARG_CONV_EXCL='*' robocopy \"C:\\\\Users\\\\Muttafeen\\\\Downloads\\\\consult-business-consulting-nextjs-template-2026-01-14-02-59-53-utc\\\\Consult-nextjs-v2.0.0-unzip-first\\\\1.Consult-Nextjs\" \"C:\\\\dev\\\\consult\" /E /MOVE /XD .next /NFL /NDL /NJH /NJS /R:1 /W:1)"
+    ]
+  }
+}

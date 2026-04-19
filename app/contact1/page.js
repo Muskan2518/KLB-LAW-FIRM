@@ -49,7 +49,7 @@ export default function Home() {
                                             </Link>
 
                                             <Link
-                                                href="https://maps.google.com/?q=Urmila+Prabakar+Residency+Vijaya+Towers+Shanti+Nagar+Rd+AC+Guards+Lakdikapul+Hyderabad+500028"
+                                                href="https://maps.google.com/?q=Flat+No+208,+2nd+Floor,+Urmila+Prabakar+Residency,+Vijaya+Towers,+Shanti+Nagar+Rd,+AC+Guards,+Lakdikapul,+Hyderabad,+Telangana+500028"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 className="klb-contact-card"
@@ -57,7 +57,7 @@ export default function Home() {
                                                 <span className="klb-contact-card__icon"><i className="fa-solid fa-location-dot" /></span>
                                                 <span className="klb-contact-card__body">
                                                     <span className="klb-contact-card__label">Office Address</span>
-                                                    <span className="klb-contact-card__value" style={{ fontSize: 16, lineHeight: 1.4 }}>Vijaya Towers, AC Guards,<br />Lakdikapul, Hyderabad 500028</span>
+                                                    <span className="klb-contact-card__value" style={{ fontSize: 14, lineHeight: 1.45, fontWeight: 600 }}>Flat No 208, 2nd Floor, Urmila Prabakar Residency, Vijaya Towers, Shanti Nagar Rd, AC Guards, Lakdikapul, Hyderabad, Telangana 500028</span>
                                                 </span>
                                                 <span className="klb-contact-card__arrow"><i className="fa-solid fa-arrow-right" /></span>
                                             </Link>
@@ -138,7 +138,7 @@ export default function Home() {
                                 <div className="col-lg-12">
                                     <div className="klb-map-frame">
                                         <iframe
-                                            src="https://maps.google.com/maps?q=Urmila%20Prabakar%20Residency%20Vijaya%20Towers%20Shanti%20Nagar%20Rd%20AC%20Guards%20Lakdikapul%20Hyderabad%20500028&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                                            src="https://maps.google.com/maps?q=Flat%20No%20208%2C%202nd%20Floor%2C%20Urmila%20Prabakar%20Residency%2C%20Vijaya%20Towers%2C%20Shanti%20Nagar%20Rd%2C%20AC%20Guards%2C%20Lakdikapul%2C%20Hyderabad%2C%20Telangana%20500028&t=&z=17&ie=UTF8&iwloc=&output=embed"
                                             width="100%"
                                             height="450"
                                             style={{ border: 0 }}

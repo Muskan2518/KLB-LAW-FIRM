@@ -108,7 +108,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                     </a>
                     <p>
                         <i className="fa-solid fa-location-dot" />
-                        Vijaya Towers, AC Guards,<br />Lakdikapul, Hyderabad 500028
+                        Flat No 208, 2nd Floor, Urmila Prabakar Residency, Vijaya Towers, Shanti Nagar Rd, AC Guards, Lakdikapul, Hyderabad, Telangana 500028
                     </p>
                 </div>
 

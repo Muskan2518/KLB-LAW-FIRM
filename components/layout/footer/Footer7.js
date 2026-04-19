@@ -62,6 +62,14 @@ export default function Footer7() {
                                 </span>
                                 <Link href="tel:+917386276699">+91 73862 76699</Link>
                             </li>
+                            <li>
+                                <span className="klb-footer__icon klb-footer__icon--addr">
+                                    <i className="fa-solid fa-location-dot" />
+                                </span>
+                                <Link href="https://maps.google.com/?q=Flat+No+208,+2nd+Floor,+Urmila+Prabakar+Residency,+Vijaya+Towers,+Shanti+Nagar+Rd,+AC+Guards,+Lakdikapul,+Hyderabad,+Telangana+500028" target="_blank" rel="noopener noreferrer" style={{ fontSize: 13, lineHeight: 1.5 }}>
+                                    Flat No 208, 2nd Floor, Urmila Prabakar Residency, Vijaya Towers, Shanti Nagar Rd, AC Guards, Lakdikapul, Hyderabad, Telangana 500028
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </div>

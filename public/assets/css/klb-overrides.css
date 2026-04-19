@@ -105,7 +105,11 @@ select:focus {
    ========================================================================== */
 
 header.about-bg {
-    position: relative !important;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10 !important;
     background: var(--klb-black) !important;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
 }
@@ -1544,7 +1548,8 @@ header.about-bg .header-area {
 
 .klb-hero-banner__slide {
     position: relative;
-    min-height: 620px;
+    /* Hero fills the entire viewport — header floats on top */
+    min-height: 100vh;
     display: flex;
     align-items: center;
     padding: 80px 0;
@@ -3286,6 +3291,16 @@ header.about-bg .header-area {
     color: #fff;
 }
 
+.klb-footer__icon--addr {
+    background: rgba(235, 124, 58, 0.18);
+    color: var(--klb-orange);
+    align-self: flex-start;
+}
+
+.klb-footer__contact li {
+    align-items: flex-start;
+}
+
 /* Divider + bottom bar */
 .klb-footer__divider {
     height: 1px;
@@ -3741,7 +3756,7 @@ header.about-bg .header-area {
 
 @media (max-width: 767px) {
     /* Hero — tighter padding, smaller card */
-    .klb-hero-banner__slide { min-height: 460px; padding: 40px 0 60px; }
+    .klb-hero-banner__slide { min-height: 100vh; padding: 70px 0 60px; }
     .klb-hero-banner__card { padding: 28px 22px; border-radius: 14px; }
     .klb-hero-banner__title { font-size: 28px !important; }
     .klb-hero-banner__lead { font-size: 14px; line-height: 1.65; }

@@ -81,7 +81,7 @@ export default function Contact6() {
                                                 </div>
                                                 <div className="contact-location">
                                                     <h1 className="font-20 font-lora lineh-24 color-h7 weight-600 margin-b ts">Office Address</h1>
-                                                    <p className="font-ks font-16 lineh-26 color-hp weight-400 ts">Hyderabad, Telangana, India<br />Serving clients across India</p>
+                                                    <p className="font-ks font-16 lineh-26 color-hp weight-400 ts">Flat No 208, 2nd Floor, Urmila Prabakar Residency, Vijaya Towers,<br />Shanti Nagar Rd, AC Guards, Lakdikapul, Hyderabad, Telangana 500028</p>
                                                 </div>
                                             </div>
                                         </div>

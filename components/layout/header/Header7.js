@@ -11,12 +11,12 @@ export default function Header7({ scroll, isMobileMenu, handleMobileMenu }) {
                             <div className="col-12">
                                 <div className="header-elements">
                                     <div className="site-logo">
-                                        <Link href="/"><img src="/assets/images/klb/klb-logo.png" alt="KLB Law Firm" style={{ maxHeight: 96 }} /></Link>
+                                        <Link href="/"><img src="/assets/images/klb/klb-logo.png" alt="KLB Law Firm" style={{ maxHeight: 68 }} /></Link>
                                     </div>
                                     <div className="main-menu-ex  homepage7 ">
                                         <ul>
                                             <li><Link href="/" className="font-ks font-16 weight-500 color">Home</Link></li>
-                                            <li><Link href="/about" className="font-ks font-16 weight-500 color">About</Link></li>
+                                            <li><Link href="/about" className="font-ks font-16 weight-500 color">About Us</Link></li>
                                             <li><Link href="/servicev1" className="font-ks font-16 weight-500 color">Services <span><i className="fa-solid fa-angle-down" /></span></Link>
                                                 <ul className="dropdown-padding">
                                                     <li><Link href="/servicev1?open=criminal-law" className="font-ks font-16 weight-500 color">Criminal Law</Link></li>

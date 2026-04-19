@@ -58,7 +58,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                 <nav className="klb-mobile-nav">
                     <ul>
                         <li><Link href="/" onClick={closeMenu}>Home</Link></li>
-                        <li><Link href="/about" onClick={closeMenu}>About</Link></li>
+                        <li><Link href="/about" onClick={closeMenu}>About Us</Link></li>
                         <li className={`klb-mobile-nav__has-sub ${openKey === "services" ? "is-open" : ""}`}>
                             <button type="button" onClick={() => toggle("services")}>
                                 Services

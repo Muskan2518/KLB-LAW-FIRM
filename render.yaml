@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: klb-law-firm
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 22.22.0
+      - key: NPM_CONFIG_PRODUCTION
+        value: false
